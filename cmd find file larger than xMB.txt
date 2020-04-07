@@ -1,0 +1,1 @@
+forfiles /S /M * /C "cmd /c if @fsize GEQ 10048576 echo @path"
